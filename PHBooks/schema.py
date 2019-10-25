@@ -17,5 +17,4 @@ class Mutation(graphene.ObjectType):
     create_app = apps.schema.CreateApp().Field()
 
 
-
 schema = graphene.Schema(query=Query, mutation=Mutation)
